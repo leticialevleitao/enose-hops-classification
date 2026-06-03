@@ -1,0 +1,47 @@
+[
+  {
+    "file": "cone_variety_lda.joblib",
+    "model_type": "LinearDiscriminantAnalysis",
+    "n_samples": 125,
+    "n_features": 378,
+    "n_classes": 9,
+    "loso_accuracy": 0.7,
+    "timestamp": "2026-05-18T12:12:00.172541"
+  },
+  {
+    "file": "cone_variety_tabpfn.joblib",
+    "model_type": "TabPFNClassifier",
+    "n_samples": 125,
+    "n_features": 378,
+    "n_classes": 9,
+    "loso_accuracy": 0.824,
+    "timestamp": "2026-05-18T12:12:15.922324"
+  },
+  {
+    "file": "form_detector_lda.joblib",
+    "model_type": "LinearDiscriminantAnalysis",
+    "n_samples": 230,
+    "n_features": 364,
+    "n_classes": 3,
+    "loso_accuracy": 0.917,
+    "timestamp": "2026-05-18T12:12:00.109517"
+  },
+  {
+    "file": "oil_variety_lda.joblib",
+    "model_type": "LinearDiscriminantAnalysis",
+    "n_samples": 60,
+    "n_features": 364,
+    "n_classes": 12,
+    "loso_accuracy": 0.95,
+    "timestamp": "2026-05-18T12:12:23.846113"
+  },
+  {
+    "file": "pellet_variety_lda.joblib",
+    "model_type": "LinearDiscriminantAnalysis",
+    "n_samples": 45,
+    "n_features": 413,
+    "n_classes": 9,
+    "loso_accuracy": 0.933,
+    "timestamp": "2026-05-18T12:12:23.814558"
+  }
+]

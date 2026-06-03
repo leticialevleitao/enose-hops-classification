@@ -1,0 +1,27 @@
+# Núcleo numérico
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+
+# ML clássico
+scikit-learn>=1.3
+scikit-optimize>=0.9
+
+# Modelos modernos (tabulares e gradient boosting)
+xgboost>=2.0
+lightgbm>=4.0
+catboost>=1.2
+tabpfn>=0.1.10
+
+# Séries temporais
+sktime>=0.24
+
+# Visualização
+matplotlib>=3.7
+seaborn>=0.12
+
+# Explicabilidade
+shap>=0.43
+
+# Persistência de modelos
+joblib>=1.3

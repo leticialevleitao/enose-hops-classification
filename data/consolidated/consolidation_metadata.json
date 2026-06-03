@@ -1,0 +1,203 @@
+{
+  "CHINOOK_Fresco": {
+    "sample_name": "CHINOOK_Fresco",
+    "source_files": [
+      "CHINOOK_Fresco_Ia.csv",
+      "CHINOOK_Fresco_Ib.csv",
+      "CHINOOK_Fresco_Ic.csv"
+    ],
+    "source_sizes_bytes": [
+      42442,
+      42677,
+      42424
+    ],
+    "cycles_per_file": [
+      5,
+      5,
+      5
+    ],
+    "total_cycles": 15,
+    "output_file": "CHINOOK_Fresco_consolidated.csv",
+    "output_size_bytes": 128820,
+    "output_lines": 1960,
+    "consolidation_date": "2025-10-27T09:19:24.522323"
+  },
+  "CHINOOK_Passada": {
+    "sample_name": "CHINOOK_Passada",
+    "source_files": [
+      "CHINOOK_Passada_Ea.csv",
+      "CHINOOK_Passada_Eb.csv",
+      "CHINOOK_Passada_Ec.csv"
+    ],
+    "source_sizes_bytes": [
+      42622,
+      46423,
+      42503
+    ],
+    "cycles_per_file": [
+      5,
+      10,
+      5
+    ],
+    "total_cycles": 20,
+    "output_file": "CHINOOK_Passada_consolidated.csv",
+    "output_size_bytes": 132868,
+    "output_lines": 1992,
+    "consolidation_date": "2025-10-27T09:19:24.529512"
+  },
+  "COMET_2025_2": {
+    "sample_name": "COMET_2025_2",
+    "source_files": [
+      "COMET_2025_2_Ha.csv",
+      "COMET_2025_2_Hb.csv",
+      "COMET_2025_2_Hbb.csv",
+      "COMET_2025_2_Hc.csv"
+    ],
+    "source_sizes_bytes": [
+      42720,
+      42608,
+      42705,
+      42483
+    ],
+    "cycles_per_file": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "total_cycles": 20,
+    "output_file": "COMET_2025_2_consolidated.csv",
+    "output_size_bytes": 172113,
+    "output_lines": 2624,
+    "consolidation_date": "2025-10-27T09:19:24.532563"
+  },
+  "SAAZ_2005": {
+    "sample_name": "SAAZ_2005",
+    "source_files": [
+      "SAAZ_2005_A.csv",
+      "SAAZ_2005_Ab.csv",
+      "SAAZ_2005_Ac.csv"
+    ],
+    "source_sizes_bytes": [
+      92129,
+      39808,
+      39901
+    ],
+    "cycles_per_file": [
+      5,
+      5,
+      5
+    ],
+    "total_cycles": 15,
+    "output_file": "SAAZ_2005_consolidated.csv",
+    "output_size_bytes": 173829,
+    "output_lines": 2674,
+    "consolidation_date": "2025-10-27T09:19:24.532563"
+  },
+  "SAAZ_Fresco": {
+    "sample_name": "SAAZ_Fresco",
+    "source_files": [
+      "SAAZ_Fresco_Fa.csv",
+      "SAAZ_Fresco_Fb.csv",
+      "SAAZ_Fresco_Fc.csv"
+    ],
+    "source_sizes_bytes": [
+      39859,
+      39701,
+      39459
+    ],
+    "cycles_per_file": [
+      5,
+      5,
+      5
+    ],
+    "total_cycles": 15,
+    "output_file": "SAAZ_Fresco_consolidated.csv",
+    "output_size_bytes": 120155,
+    "output_lines": 1816,
+    "consolidation_date": "2025-10-27T09:19:24.532563"
+  },
+  "SAAZ_Passado": {
+    "sample_name": "SAAZ_Passado",
+    "source_files": [
+      "SAAZ_Passado_Ga.csv",
+      "SAAZ_Passado_Gb.csv"
+    ],
+    "source_sizes_bytes": [
+      39722,
+      39442
+    ],
+    "cycles_per_file": [
+      5,
+      5
+    ],
+    "total_cycles": 10,
+    "output_file": "SAAZ_Passado_consolidated.csv",
+    "output_size_bytes": 80031,
+    "output_lines": 1209,
+    "consolidation_date": "2025-10-27T09:19:24.542531"
+  },
+  "SAAZ_Seco": {
+    "sample_name": "SAAZ_Seco",
+    "source_files": [
+      "SAAZ_Seco_Ba.csv",
+      "SAAZ_Seco_Bb.csv",
+      "SAAZ_Seco_Bc.csv"
+    ],
+    "source_sizes_bytes": [
+      39789,
+      39791,
+      40038
+    ],
+    "cycles_per_file": [
+      5,
+      5,
+      5
+    ],
+    "total_cycles": 15,
+    "output_file": "SAAZ_Seco_consolidated.csv",
+    "output_size_bytes": 120756,
+    "output_lines": 1822,
+    "consolidation_date": "2025-10-27T09:19:24.542531"
+  },
+  "VISTA_Fresco": {
+    "sample_name": "VISTA_Fresco",
+    "source_files": [
+      "VISTA_Fresco_Ca.csv",
+      "VISTA_Fresco_Cb.csv"
+    ],
+    "source_sizes_bytes": [
+      39939,
+      39700
+    ],
+    "cycles_per_file": [
+      5,
+      5
+    ],
+    "total_cycles": 10,
+    "output_file": "VISTA_Fresco_consolidated.csv",
+    "output_size_bytes": 80516,
+    "output_lines": 1218,
+    "consolidation_date": "2025-10-27T09:19:24.542531"
+  },
+  "ZEUS_2025_2": {
+    "sample_name": "ZEUS_2025_2",
+    "source_files": [
+      "ZEUS_2025_2_Db.csv",
+      "ZEUS_2025_2_Dc.csv"
+    ],
+    "source_sizes_bytes": [
+      42600,
+      42602
+    ],
+    "cycles_per_file": [
+      5,
+      5
+    ],
+    "total_cycles": 10,
+    "output_file": "ZEUS_2025_2_consolidated.csv",
+    "output_size_bytes": 86176,
+    "output_lines": 1314,
+    "consolidation_date": "2025-10-27T09:19:24.542531"
+  }
+}

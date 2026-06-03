@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+enose_env/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Logs e temporários
+*.log
+*.tmp
+*.bak
+
+# Build / dist
+build/
+dist/
+
+# Modelos pesados (>100MB não são suportados pelo GitHub sem LFS)
+models/*.joblib
+!models/cone_variety_lda.joblib
+!models/form_detector_lda.joblib
+!models/oil_variety_lda.joblib
+!models/pellet_variety_lda.joblib
+*tabpfn*.joblib
+
+# Resultados experimentais gerados localmente
+results/
+figures/
+catboost_info/
+
+# Variáveis sensíveis
+.env
+.env.local
+*.key
+*.pem
