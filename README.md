@@ -19,17 +19,17 @@ O sistema utiliza um nariz eletrônico equipado com sete sensores MOS (óxido me
 ## Arquitetura do pipeline em produção
 
 ```
-                          ┌─────────────────────────┐
-   amostra (e-nose) ───▶  │  Gateway: detector da    │
-                          │  forma (LDA, acc 91,7%)  │
-                          └────────────┬─────────────┘
+                          ┌───────────────────────┐
+   amostra (e-nose) ───▶ │ Gateway: detector da   │
+                          │ forma (LDA, acc 91,7%) │
+                          └────────────┬───────────┘
                                        │
               ┌────────────────────────┼────────────────────────┐
               ▼                        ▼                        ▼
        ┌────────────┐           ┌────────────┐           ┌────────────┐
-       │ Especialista│           │ Especialista│           │ Especialista│
-       │   Cones     │           │   Pellets   │           │   Óleos     │
-       │ (LDA/TabPFN)│           │   (LDA)     │           │   (LDA)     │
+       │Especialista│           |Especialista│           │Especialista│
+       │  Cones     │           │   Pellets  │           │   Óleos    │
+       │(LDA/TabPFN)│           │   (LDA)    │           │   (LDA)    │
        └────────────┘           └────────────┘           └────────────┘
         variedade                variedade                variedade
 ```
@@ -154,34 +154,14 @@ print(f"Forma identificada: {forma} | Variedade: {variedade}")
 | Variedade de óleos (12 classes)          | LDA     | 95,0%    | 0,948    | 0,961  |
 | Transferência direta cones → pellets     | LDA     | ~20%     | ~0,18    | ~0,22  |
 
-A última linha demonstra o efeito de Concept Drift entre formas e justifica a adoção da arquitetura de roteamento dinâmico. Os valores consolidados estão disponíveis em `models/metadata.json`.
+Os valores consolidados estão disponíveis em `models/metadata.json`.
 
 ## Trabalhos futuros
 
-- Integração do pipeline com a plataforma do grupo de pesquisa CIn.AI (deploy efetivo).
+- Integração do pipeline com a plataforma do grupo (deploy efetivo).
 - Coleta de novas sessões para ampliar a base de pellets e óleos.
 - Inclusão de novas variedades e novas formas de apresentação do lúpulo.
-- Avaliação de modelos de séries temporais profundos (Transformers para séries).
 
-## Citação
-
-Caso utilize este código ou os dados em trabalhos acadêmicos, por favor cite:
-
-```bibtex
-@misc{leitao2026enosehops,
-  author       = {Leit{\~a}o, Let{\'i}cia de Albuquerque S.},
-  title        = {Classifica{\c c}{\~a}o Inteligente de Variedades de L{\'u}pulo Utilizando Nariz Eletr{\^o}nico e Modelos de Aprendizado de M{\'a}quina},
-  year         = {2026},
-  howpublished = {Trabalho de Conclus{\~a}o de Curso, Centro de Inform{\'a}tica, UFPE},
-  note         = {Orientador: Prof. Dr. Leandro Maciel Almeida}
-}
-```
-
-## Agradecimentos
-
-- **CIn/UFPE** e o grupo de pesquisa **CIn.AI** pela infraestrutura e suporte acadêmico.
-- **CETENE** pelo fornecimento e caracterização das amostras de lúpulo.
-- **Prof. Dr. Leandro Maciel Almeida** pela orientação.
 
 ## Licença
 
