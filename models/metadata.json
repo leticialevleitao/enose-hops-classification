@@ -5,7 +5,7 @@
     "n_samples": 125,
     "n_features": 378,
     "n_classes": 9,
-    "loso_accuracy": 0.7,
+    "loso_accuracy": 0.712,
     "timestamp": "2026-05-18T12:12:00.172541"
   },
   {

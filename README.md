@@ -149,7 +149,7 @@ print(f"Forma identificada: {forma} | Variedade: {variedade}")
 |------------------------------------------|---------|----------|----------|--------|
 | Detecção da forma (gateway, 3 classes)   | LDA     | 91,7%    | 0,914    | 0,931  |
 | Variedade de cones (9 classes)           | TabPFN  | 82,4%    | 0,818    | 0,852  |
-| Variedade de cones (9 classes)           | LDA     | 70,0%    | 0,695    | 0,742  |
+| Variedade de cones (9 classes)           | LDA     | 71,2%    | 0,707    | 0,757  |
 | Variedade de pellets (9 classes)         | LDA     | 93,3%    | 0,930    | 0,948  |
 | Variedade de óleos (12 classes)          | LDA     | 95,0%    | 0,948    | 0,961  |
 | Transferência direta cones → pellets     | LDA     | ~20%     | ~0,18    | ~0,22  |
