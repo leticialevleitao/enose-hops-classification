@@ -12,8 +12,8 @@ O sistema utiliza um nariz eletrônico equipado com sete sensores MOS (óxido me
 2. **Extração de 378 características temporais por amostra** (estatísticas, derivadas, áreas sob a curva, ressonância e características de transitório por sensor).
 3. **Comparação ampla de modelos**, contemplando modelos clássicos, gradient boosting modernos (XGBoost, LightGBM, CatBoost), modelos tabulares de fundação (TabPFN) e modelos para séries temporais.
 4. **Análise não supervisionada** (clustering) para investigar a estrutura natural dos dados.
-5. **Explicabilidade** com SHAP e importância por permutação, identificando os sensores mais discriminativos.
-6. **Quantificação de Concept Drift / Covariate Shift** entre as três formas de apresentação do lúpulo (cones, pellets e óleos), demonstrando matematicamente que modelos treinados em uma forma não generalizam para as outras.
+5. **Explicabilidade** com SHAP e importância por permutação, identificando os sensores mais discriminativos. O poder discriminatório individual de cada sensor é quantificado pela métrica η² (eta-quadrado, razão entre variância entre classes e variância total), com destaque para TGS822 (η² = 0,985) e TGS826 (η² = 0,971).
+6. **Quantificação de Concept Drift / Covariate Shift** entre as três formas de apresentação do lúpulo (cones, pellets e óleos), evidenciando empiricamente que modelos treinados em uma forma não generalizam para as outras.
 7. **Arquitetura de inferência modular com roteamento dinâmico**: um classificador gateway identifica a forma da amostra recebida e direciona a inferência ao modelo especialista correspondente, viabilizando a incorporação futura de novas variedades e novas formas sem reescrever todo o sistema.
 
 ## Arquitetura do pipeline em produção
