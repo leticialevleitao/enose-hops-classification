@@ -46,12 +46,12 @@ Cycle boundaries are marked by `_CICLO_INICIADO_X_DE_Y_` and `_CICLO_FINALIZADO_
 
 ### Category A: Cone Varieties (whole hop flowers, 9 files)
 
-These files contain measurements from hop cones (whole flowers) in various conservation states. The 9 cone files are those used in the IJCNN 2026 paper, representing 5 hop varieties across 9 distinct classes that capture both variety and storage condition. Total: 130 measurement cycles.
+These files contain measurements from hop cones (whole flowers) in various conservation states. The 9 cone files are those used in the IJCNN 2026 paper, representing 5 hop varieties across 9 distinct classes that capture both variety and storage condition. Total: 125 measurement cycles (see note below).
 
 | File | Variety | Condition | Cycles | Size |
 |------|---------|-----------|--------|------|
 | chinook_fresco.csv | Chinook | Fresh | 15 | 126K |
-| chinook_passada.csv | Chinook | Aged | 20 | 130K |
+| chinook_passada.csv | Chinook | Aged | 15* | 130K |
 | come_2025_2.csv | Comet | 2025 vintage | 20 | 169K |
 | saaz_2005.csv | Saaz | 2005 archive (20-year-old) | 15 | 170K |
 | saaz_fresco.csv | Saaz | Fresh | 15 | 118K |
@@ -59,6 +59,8 @@ These files contain measurements from hop cones (whole flowers) in various conse
 | saaz_seco.csv | Saaz | Dry | 15 | 118K |
 | vista_fresco.csv | Vista | Fresh | 10 | 79K |
 | zeus_2025_2.csv | Zeus | 2025 vintage | 10 | 85K |
+
+\* `chinook_passada.csv` contains 20 `_CICLO_INICIADO_` markers in the raw file, but 5 of them are consecutive ghost markers (no sensor data between them), resulting in only 15 valid extractable cycles.
 
 ### Category B: Pelletized Hops (9 files)
 

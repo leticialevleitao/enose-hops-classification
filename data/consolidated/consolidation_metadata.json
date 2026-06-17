@@ -36,10 +36,11 @@
     ],
     "cycles_per_file": [
       5,
-      10,
+      5,
       5
     ],
-    "total_cycles": 20,
+    "total_cycles": 15,
+    "_note": "CHINOOK_Passada_Eb.csv contains 10 INICIADO markers but only 5 have associated sensor data (5 are ghost markers without data between consecutive INICIADO lines)",
     "output_file": "CHINOOK_Passada_consolidated.csv",
     "output_size_bytes": 132868,
     "output_lines": 1992,
